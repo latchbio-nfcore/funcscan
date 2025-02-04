@@ -43,67 +43,67 @@ Step 7/15 : run pip install latch==2.46.6
 
  ---> Using cache
 
- ---> be1350f11537
+ ---> cbe2c65a6f23
 
 Step 8/15 : run mkdir /opt/latch
 
 
  ---> Using cache
 
- ---> e8dd4419614b
+ ---> 7d78bb970bdc
 
 Step 9/15 : run apt-get update && apt-get install -y default-jre-headless
 
 
  ---> Using cache
 
- ---> 447cbd90cbc9
+ ---> 028c4ff2c2b6
 
 Step 10/15 : copy . /root/
 
 
- ---> e6e73c92ea36
+ ---> 7a16670ae7b2
 
 Step 11/15 : run ln -s /root/.latch/bin/nextflow /root/nextflow
 
 
- ---> Running in b026a62e4cb2
+ ---> Running in b0ce407c70ee
 
 [91mln -s /root/.latch/bin/nextflow /root/nextflow
 [0m
- ---> 85674c8999cd
+ ---> e0ed8bdccf24
 
 Step 12/15 : run ln -s /root/.latch/.nextflow /root/.nextflow
 
 
- ---> Running in 135b465b4506
+ ---> Running in 9659801ebbd5
 
 [91mln -s /root/.latch/.nextflow /root/.nextflow
 [0m
- ---> ab550689e3f6
+ ---> 1e9d318286a3
 
 Step 13/15 : arg tag
 
 
- ---> Running in a1f0b8c64dcf
+ ---> Running in 509a5857b3d5
 
- ---> ec253c95afce
+ ---> f1f55ee7bfad
 
 Step 14/15 : env FLYTE_INTERNAL_IMAGE $tag
 
 
- ---> Running in 67777fdd5f46
+ ---> Running in c16dd5cbb550
 
- ---> 1edd6efad8f2
+ ---> acdd9a56e3f5
 
 Step 15/15 : workdir /root
 
 
- ---> Running in dc3dd5ee14c1
+ ---> Running in 446a0e6b564c
 
- ---> 9a1d2590b203
+ ---> 7092a56b1cd2
 
-Successfully built 9a1d2590b203
+Successfully built 7092a56b1cd2
 
-Successfully tagged 812206152185.dkr.ecr.us-west-2.amazonaws.com/35597_nf_nf_core_funcscan:0.1.0-4e891d
+Successfully tagged 812206152185.dkr.ecr.us-west-2.amazonaws.com/35729_nf_nf_core_funcscan:0.1.0-d20e5a-wip-86cd26
 
